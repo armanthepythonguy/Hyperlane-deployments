@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Demo",
+        "chains":["sepolia", "polygon"],
+        "config":{
+            "sepolia": {
+                "router": "0x9044D5305Cc2e9596D8336D1D0AF9ED708c3c54D",
+                "tokenType": "collateral"
+            },
+            "polygon": {
+                "router": "0x23328DB09c477790f7ffB317518C1F4aB7fCe07A",
+                "tokenType": "synthetic"
+            }
+        }
+    }
+]
